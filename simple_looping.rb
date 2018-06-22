@@ -33,7 +33,6 @@ def while_iterator(number_of_times)
   while number_of_times>=7 do
     puts phrase
     number_of_times += 1
-    break if number_of_times > 7
   end
 end
 
